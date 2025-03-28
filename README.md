@@ -1,11 +1,63 @@
 # mekcord
 Vencord custom theme WIP
 
+# how
+This isn't a real theme yet, so check below
+
+# import
+If you don't have nitro this is a good choice
+<ol>
+  <li>
+    install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions
+  </li>
+  <li>
+    download <a href="https://github.com/Mekinere/mekcord/blob/main/mekcord_settings.json" target="_blank">mekcord_settings.json</a> from this repository
+  </li>
+  <li>
+    Go to User Settings (gear button) in Discord
+  </li>
+  <li> find the Vencord section of settings, and click on "Backup and Restore"</li>
+  <li>
+    click on "Import Settings"
+  </li>
+  <li>
+    select mekcord_settings.json, which you have downloaded. If it is not downloaded, go back to step 2
+  </li>
+  <li>
+    restart discord! now you're done
+  </li>
+</ol>
+
+# copy-paste
+If you have nitro and just want the CSS/prefer plugin-less vencord
+<ol>
+  <li>
+    Install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions
+  </li>
+  <li>
+    Go to User Settings (gear button) in Discord
+  </li>
+  <li> find the Vencord section of settings, and click on Vencord</li>
+  <li> click "Enable Custom CSS", and click on "Edit QuickCSS"</li>
+  <li>
+    Come back to this github, and open up <a href="https://github.com/Mekinere/mekcord/blob/main/mekcord.css" target="_blank">mekcord.css</a>
+  </li>
+  <li>
+    copy and paste everything written in there into the QuickCSS window that opened in step 4
+  </li>
+  <li>
+    Delete the section labeled at both ends with "ignore nitro" if you have nitro and would not like to ignore it
+  </li>
+  <li>
+    close the quickCSS window because you're done
+  </li>
+</ol>
+
 # why
 I can't stand all the visual redesign stuff; its frankly quite sloppy, even though there are some good features wrapped in there (larger title bar, adjustable server sidebar) it feels like they didn't consider clean layout to be important.
 
 # what
-currently, just a export of my settings/quickly made css powered by frustration for <a href="https://vencord.dev/">Vencord</a>. Currently through the JSON, I have these plugins enabled:
+currently, just a export of my settings/quickly made css powered by frustration. Currently through the JSON, I have these plugins enabled:
 <ul>
   <li>Better Gif Alt Text</li>
   
