@@ -1,0 +1,244 @@
+/* nitro ignore section */
+ul > .channel__972a0 .avatarWithText__972a0{
+    display: none;
+}
+.friendsButtonContainer__35e86 + li + li{
+    display: none;
+}
+/* voice filter out of call trimmed */
+.micButtonParent__37e49 {
+    margin-right: 0;
+    .buttonChevron__37e49 {
+        display: none;
+    }
+}
+/* voice filter nitro trimmed in call */
+.voiceFiltersPopout_e2f668{
+    max-height: 72px;
+    > div {
+        display: none;
+    }
+    .voiceFiltersFooter_e2f668{
+        display: flex;
+        border: none;
+        border-radius: 16px;
+    }
+    .upsellCountdownContainer_e2f668{
+        display: none !important;
+    }
+}
+/* discord gift button in chat bar*/
+.buttons__74017 > button{
+    display: none;
+}
+/* menu settings */
+#profile-customization-tab {
+    .floatingNitroUpsell__39749, .container__8279f, 
+    .premiumBackground__65c15, .premiumFeatureBorder__65c15, 
+    .upsellOverlayContainer__0f7dc {
+        display: none;
+    }
+}
+/* billing/subscriptions */
+.side_b3f026{
+    div.header_b3f026:nth-child(4n-3){
+        display: none;
+    }
+    .premiumTab__581ea, .premiumTab__581ea + div, .premiumTab__581ea + div + div, 
+    .premiumTab__581ea + div + div + div, .premiumTab__581ea + div + div + div + div, 
+    .premiumTab__581ea + div + div + div + div + .separator_b3f026{
+        display: none;
+    }
+    div.item_b3f026:nth-child(n + 45), div.separator_b3f026:nth-child(3n + 42){
+        display: none;
+    }
+    div.item_b3f026:nth-last-of-type(-n + 5){
+        display: block;
+    }
+}
+/* END OF NITRO IGNORE SECTION (delete if you have nitro) */
+
+
+/* General style changes */
+
+/* window title bar */
+.bar_c38106{
+    .title_c38106{
+        display: none;
+    }
+}
+
+/* profile section */
+.content_c48ade .sidebar_c48ade .panels_c48ade{
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid var(--background-modifier-accent);
+    padding: 0 0 16px;
+    width: 99%;
+    left: 2px;
+    bottom: 2px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    .button__67645 {
+        width: fit-content;
+    }
+
+    /* voice connect panel */
+    .wrapper_e131a9{
+        grid-row: 3;
+        .container_e131a9{
+            padding-bottom: 3px;
+            .rtcConnectionStatusWrapper__06d62{
+                .default__0263c .text-md\/medium_cf4812{
+                    font-size: 13.5px;
+                }
+                .lineClamp1__4bd52.text-sm\/medium_cf4812{
+                    font-size: 12.5px;
+                }
+                p{
+                    font-size: 11px;
+                }
+            }
+            .voiceButtonsContainer_e131a9{
+                gap: 12px;
+                margin-right: 3px;
+            }
+            .actionButtons_e131a9 {
+                margin-right: 3px;
+                gap: 12px;
+                .button__201d5{
+                    height: 26px;
+                    min-height: 26px;
+                }
+            }
+        }
+    }
+    /* game activity panel */
+    .activityPanel_c48ade{
+        padding: 3px 8px;
+        .text-sm\/medium_cf4812{
+            font-size: 13px;
+        }
+        .panelButtonContainer__4cd01{
+            width: fit-content;
+            margin-right: 3px;
+        }
+    }
+    /* profile/control panel */
+    .container__37e49{
+        border-bottom: 2px solid var(--background-modifier-accent);
+        grid-row: 4;
+        .buttons__37e49{
+            gap: 12px;
+            margin-right: 4px;
+        }
+    }
+    /* spotify addon */
+    #vc-spotify-player{
+        position: relative;
+        border-bottom: 2px solid var(--background-surface-high);
+        border-radius: 15px;
+        padding: .375rem 11px;
+        grid-row:1;
+        .grabber_a562c8{
+            margin: -5px 0 0 -1px;
+        }
+        .vc-spotify-button-row{
+            opacity: 0;            
+        }
+        
+    }
+    #vc-spotify-player:hover{
+        transition: height .2s .1s ease-in-out;
+        .vc-spotify-button-row{
+            opacity: 1;
+            transition: opacity .1s .1s ease-in-out;
+        }
+    }
+    @media(max-height: 767px){
+        #vc-spotify-player{
+            padding: .375rem 11px 1px;
+            #vc-spotify-info-wrapper{
+                height: 1.75em;
+                img {
+                display: none;
+                }
+                #vc-spotify-titles{
+                    flex-direction: row;
+                    flex-grow: 1;
+                    padding: 0;
+                    justify-content: space-evenly;
+                    >div{
+                        max-width: max-content;
+                    }
+                    > div + div + div{
+                        display: none;
+                    }
+                } 
+            }
+            #vc-spotify-progress-bar{
+                margin: 4px 0;
+                height: 10px;
+                .vc-spotify-progress-time{
+                    display: none;
+                }
+                
+            }
+        }
+    }
+
+}
+/* server list left icons */
+.wrapper_ef3116.guilds_c48ade {
+    margin-bottom: 2px;
+    .pill_e5445c {
+        transform: translateX(8px);
+    }
+    > ul{
+        /* scaled due to how difficult it was to undo redundant code */
+    transform: scale(1.25) translate(0px, 10%);
+    box-sizing: border-box;
+    max-height: calc(100%/1.25);
+    padding-bottom: calc(var(--custom-app-panels-height)/1.25);
+    
+    /* roundness go up*/
+    foreignObject{
+        --border-radius-icon: 20px;
+        border-radius: var(--border-radius-icon);
+        .closedFolderIconWrapper__48112{
+            .icon_f34534:nth-child(1){
+                border-top-left-radius: var(--border-radius-icon) !important;
+            }
+            .icon_f34534:nth-child(2){
+                border-top-right-radius: var(--border-radius-icon) !important;;
+            }
+            .icon_f34534:nth-child(3){
+                border-bottom-left-radius: var(--border-radius-icon) !important;;
+            }
+            .icon_f34534:nth-child(4){
+                border-bottom-right-radius: var(--border-radius-icon) !important;;
+            }
+        }
+    }
+        foreignObject:hover{
+            border-radius: 8px;
+            transition: all ease-in-out 0.2s;
+        }
+        .unreadMentionsIndicatorTop_ef3116{
+            transform: scale(0.8);
+        }
+    }
+}
+/* member list right sidebar */
+main ~ .container_c8ffbb{
+    width: 230px;
+    --custom-member-list-width: 225px;
+    .content__99f8c > div{
+        margin-left: 2px;
+    }
+}
+
+/* 'now typing' below text field */
+.typing_b88801 .base_b88801{
+    font-size: 15px;
+}
