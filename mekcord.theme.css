@@ -8,7 +8,8 @@
  * **/
 
  @import url('https://raw.githubusercontent.com/Mekinere/mekcord/refs/heads/main/src/mekcord.css');
- @import url('https://raw.githubusercontent.com/Mekinere/mekcord/refs/heads/main/src/no_nitro.css');
+ /* uncomment below to hide nitro ads */
+ /* @import url('https://raw.githubusercontent.com/Mekinere/mekcord/refs/heads/main/src/no_nitro.css'); */
 
  :root{
     /* variables to come soon for customization */
