@@ -2,10 +2,41 @@
 Vencord custom theme WIP
 
 # how
-This isn't a real theme yet, so check below
+There are two things you can pick from, basically.
 
+# theme
+I figured out how themes work yay me
+<ol>
+  <li>
+    install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions    
+  </li>
+  <li>
+    download <a href="https://github.com/Mekinere/mekcord/blob/main/mekcord.theme.css" target="_blank">the theme file</a> from this repository
+  </li>
+  <li>
+    Go to User Settings (gear button) in Discord
+  </li>
+  <li>
+    find the Vencord section of settings, and click on "Themes"
+  </li>
+  <li>
+    click on 'Open Themes Folder', which doesn't open the themes folder
+  </li>
+  <li>
+    double click on the actual themes folder
+  </li>
+  <li>
+    drag and drop the css file into the folder
+  </li>
+  <li>
+    go back to discord and click on 'Load missing Themes'
+  </li>
+  <li>
+    turn the switch to 'on'. If it does not work either you or I have done something wrong :'>
+  </li>
+  
 # import
-If you don't have nitro this is a good choice
+If you want my exact settings this is a choice you can make
 <ol>
   <li>
     install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions
@@ -40,18 +71,17 @@ If you have nitro and just want the CSS/prefer plugin-less vencord
   <li> find the Vencord section of settings, and click on Vencord</li>
   <li> click "Enable Custom CSS", and click on "Edit QuickCSS"</li>
   <li>
-    Come back to this github, and open up <a href="https://github.com/Mekinere/mekcord/blob/main/mekcord.css" target="_blank">mekcord.css</a>
+    Come back to this github, and open up <a href="https://github.com/Mekinere/mekcord/blob/main/src/mekcord.css" target="_blank">mekcord.css</a>
   </li>
   <li>
     copy and paste everything written in there into the QuickCSS window that opened in step 4
   </li>
   <li>
-    Delete the section labeled at both ends with "ignore nitro" if you have nitro and would not like to ignore it
-  </li>
-  <li>
     close the quickCSS window because you're done
   </li>
 </ol>
+<br>
+Alternatively, when you download the theme, just pop open that file really quick and delete the line that says 'import no_nitro'
 
 # why
 I can't stand all the visual redesign stuff; its frankly quite sloppy, even though there are some good features wrapped in there (larger title bar, adjustable server sidebar) it feels like they didn't consider clean layout to be important.
