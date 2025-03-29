@@ -7,7 +7,7 @@ There are three(four) things you can pick from, basically.
 # theme
 I figured out how themes work yay me
 
-<ol> heres the quick way. this is NOT editable, however.
+<ol> <b>Heres the quick way. this is NOT editable, however. </b>
   <li>
     install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions    
   </li>
@@ -25,7 +25,8 @@ I figured out how themes work yay me
     click out of the textbox. If it says at the bottom 'Valid!' in green letters it worked.
   </li>
 </ol>
-<ol> heres the slightly longer way
+
+<ol> <b>Heres the slightly longer way </b>
   <li>
     install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions    
   </li>
@@ -53,7 +54,8 @@ I figured out how themes work yay me
   <li>
     turn the switch to 'on'. If it does not work either you or I have done something wrong :'>
   </li>
-  
+</ol>
+
 # import
 If you want my exact settings this is a choice you can make
 <ol>
