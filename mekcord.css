@@ -1,4 +1,4 @@
-/* nitro ignore section */
+/* nitro ignore section (DELETE IF YOU HAVE NITRO)*/
 ul > .channel__972a0 .avatarWithText__972a0{
     display: none;
 }
@@ -58,25 +58,37 @@ ul > .channel__972a0 .avatarWithText__972a0{
 }
 /* END OF NITRO IGNORE SECTION (delete if you have nitro) */
 
-
-/* General style changes */
-
-/* window title bar */
-.bar_c38106{
-    .title_c38106{
-        display: none;
+.visual-refresh {
+    /* windows bar shrunk + removed server title */
+    div.base_c48ade {
+        grid-template-rows: [top] 0 [titleBarEnd] 28px [noticeEnd] 1fr [end];
+        .button__85643 svg{
+            height: 18px !important;
+        }
+        .title_c38106{
+            display: none;
+        }
+        .bar_c38106, .trailing_c38106, .winButton_c38106, .button__85643 {
+            min-height: 28px !important;
+            height: 28px !important;
+        }
     }
-}
+    ul[data-list-id="guildsnav"]
+        > div.itemsContainer_ef3116
+        > div.stack_dbd263 {
+        margin-top: 25px;
+    }
+
 
 /* profile section */
 .content_c48ade .sidebar_c48ade .panels_c48ade{
     border-radius: 10px;
     border-bottom-left-radius: 5px;
     border: 2px solid var(--background-modifier-accent);
-    padding: 0 0 16px;
+    padding: 0;
     width: 99%;
     left: 2px;
-    bottom: 2px;
+    bottom: 4px;
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     .button__67645 {
@@ -128,6 +140,7 @@ ul > .channel__972a0 .avatarWithText__972a0{
     .container__37e49{
         border-bottom: 2px solid var(--background-modifier-accent);
         grid-row: 4;
+        padding: 6px var(--space-xs) 6px;
         .buttons__37e49{
             gap: 12px;
             margin-right: 4px;
@@ -136,6 +149,7 @@ ul > .channel__972a0 .avatarWithText__972a0{
     /* spotify addon */
     #vc-spotify-player{
         position: relative;
+        background: var(--bg-overlay-4, var(--background-base-lowest));;
         border-bottom: 2px solid var(--background-surface-high);
         border-radius: 15px;
         padding: .375rem 11px;
@@ -157,7 +171,7 @@ ul > .channel__972a0 .avatarWithText__972a0{
     }
     @media(max-height: 767px){
         #vc-spotify-player{
-            padding: .375rem 11px 1px;
+            padding: .375rem 11px 2px;
             #vc-spotify-info-wrapper{
                 height: 1.75em;
                 img {
@@ -238,7 +252,47 @@ main ~ .container_c8ffbb{
     }
 }
 
-/* 'now typing' below text field */
-.typing_b88801 .base_b88801{
-    font-size: 15px;
+/* 'now typing' above text field */
+    .form_f75fb0 {
+        margin: 0 8px 8px 8px;
+        padding: 0;
+        --chatbar-border-color: var(--border-faint);
+    }
+    .channelTextArea_f75fb0 {
+        margin: 0;
+        border-color: var(--chatbar-border-color);
+        transition: none;
+    }
+    .base_b88801 {
+        top: -25px;
+        left: 0;
+        right: 0;
+        background-color: var(--chat-background-default);
+        padding: 0 8px;
+        border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+        border: 1px solid var(--chatbar-border-color);
+        border-bottom: none;
+        transition: none;
+    }
+    .stackedBars__74017,
+    .threadSuggestionBar__841c8 {
+        border-color: var(--chatbar-border-color) !important;
+    }
+    .form_f75fb0:has(.base_b88801) {
+        .channelTextArea_f75fb0 {
+            border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+        }
+    }
+    .form_f75fb0:has(.channelTextArea__74017:focus-within) {
+        --chatbar-border-color: var(--border-subtle);
+    }
+    .scrollerSpacer__36d07 {
+        height: calc(25px + 8px);
+    }
+    .scroller__36d07::-webkit-scrollbar-track {
+        margin-bottom: calc(21px + 8px);
+    }
+    .bottomBar__0f481 {
+        margin-bottom: 25px;
+    }
 }
