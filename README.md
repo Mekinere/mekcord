@@ -2,11 +2,30 @@
 Vencord custom theme WIP
 
 # how
-There are two things you can pick from, basically.
+There are three(four) things you can pick from, basically.
 
 # theme
 I figured out how themes work yay me
-<ol>
+
+<ol> heres the quick way. this is NOT editable, however.
+  <li>
+    install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions    
+  </li>
+  <li>
+    Go to User Settings (gear button) in Discord
+  </li>
+  <li>
+    find the Vencord section of settings, and click on "Themes", then click on "Online Themes"
+  </li>
+  <li>
+    copy paste this link: 
+    https://raw.githubusercontent.com/Mekinere/mekcord/refs/heads/main/mekcord.theme.css
+  </li>
+  <li>
+    click out of the textbox. If it says at the bottom 'Valid!' in green letters it worked.
+  </li>
+</ol>
+<ol> heres the slightly longer way
   <li>
     install <a href="https://vencord.dev/" target="_blank">Vencord</a> if you haven't already, following their install instructions    
   </li>
