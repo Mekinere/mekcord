@@ -1,0 +1,58 @@
+ul > .channel__972a0 .avatarWithText__972a0{
+    display: none;
+}
+.friendsButtonContainer__35e86 + li + li{
+    display: none;
+}
+/* voice filter out of call trimmed */
+.micButtonParent__37e49 {
+    margin-right: 0;
+    .buttonChevron__37e49 {
+        display: none;
+    }
+}
+/* voice filter nitro trimmed in call */
+.voiceFiltersPopout_e2f668{
+    max-height: 72px;
+    > div {
+        display: none;
+    }
+    .voiceFiltersFooter_e2f668{
+        display: flex;
+        border: none;
+        border-radius: 16px;
+    }
+    .upsellCountdownContainer_e2f668{
+        display: none !important;
+    }
+}
+/* discord gift button in chat bar*/
+.buttons__74017 > button{
+    display: none;
+}
+/* menu settings */
+#profile-customization-tab {
+    .floatingNitroUpsell__39749, .container__8279f, 
+    .premiumBackground__65c15, .premiumFeatureBorder__65c15, 
+    .upsellOverlayContainer__0f7dc {
+        display: none;
+    }
+}
+/* billing/subscriptions */
+.side_b3f026{
+    div.header_b3f026:nth-child(4n-3){
+        display: none;
+    }
+    .premiumTab__581ea, .premiumTab__581ea + div, .premiumTab__581ea + div + div, 
+    .premiumTab__581ea + div + div + div, .premiumTab__581ea + div + div + div + div, 
+    .premiumTab__581ea + div + div + div + div + .separator_b3f026{
+        display: none;
+    }
+    div.item_b3f026:nth-child(n + 45), div.separator_b3f026:nth-child(3n + 42){
+        display: none;
+    }
+    div.item_b3f026:nth-last-of-type(-n + 5){
+        display: block;
+    }
+}
+
