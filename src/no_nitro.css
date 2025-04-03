@@ -45,8 +45,7 @@ ul > .channel__972a0 .avatarWithText__972a0{
     }
     .premiumTab__581ea, .premiumTab__581ea + div, .premiumTab__581ea + div + div, 
     .premiumTab__581ea + div + div + div, .premiumTab__581ea + div + div + div + div, 
-    .premiumTab__581ea + div + div + div + div + .separator_b3f026,
-    .premiumTab__581ea + div + div + div + div + .separator_b3f026 + div + div + div + div + div{
+    .premiumTab__581ea + div + div + div + div + .separator_b3f026{
         display: none;
     }
     div.item_b3f026:nth-child(n + 45), div.separator_b3f026:nth-child(3n + 42){
