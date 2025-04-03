@@ -30,7 +30,7 @@ ul > .channel__972a0 .avatarWithText__972a0{
 .buttons__74017 > button{
     display: none;
 }
-/* menu settings */
+/* inner menu settings */
 #profile-customization-tab {
     .floatingNitroUpsell__39749, .container__8279f, 
     .premiumBackground__65c15, .premiumFeatureBorder__65c15, 
@@ -38,14 +38,15 @@ ul > .channel__972a0 .avatarWithText__972a0{
         display: none;
     }
 }
-/* billing/subscriptions */
+/* billing/subscriptions remove menu tabs*/
 .side_b3f026{
     div.header_b3f026:nth-child(4n-3){
         display: none;
     }
     .premiumTab__581ea, .premiumTab__581ea + div, .premiumTab__581ea + div + div, 
     .premiumTab__581ea + div + div + div, .premiumTab__581ea + div + div + div + div, 
-    .premiumTab__581ea + div + div + div + div + .separator_b3f026{
+    .premiumTab__581ea + div + div + div + div + .separator_b3f026,
+    .premiumTab__581ea + div + div + div + div + .separator_b3f026 + div + div + div + div + div{
         display: none;
     }
     div.item_b3f026:nth-child(n + 45), div.separator_b3f026:nth-child(3n + 42){

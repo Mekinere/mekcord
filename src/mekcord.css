@@ -208,7 +208,7 @@ main ~ .container_c8ffbb{
         top: -25px;
         left: 0;
         right: 0;
-        background-color: var(--chat-background-default);
+        background: var(--bg-overlay-floating,var(--chat-background-default));
         padding: 0 8px;
         border-radius: var(--radius-sm) var(--radius-sm) 0 0;
         border: 1px solid var(--chatbar-border-color);
