@@ -1,7 +1,7 @@
 ul > .channel__972a0 .avatarWithText__972a0{
     display: none;
 }
-.friendsButtonContainer__35e86 + li + li{
+.friendsButtonContainer__35e86 + li, .friendsButtonContainer__35e86 + li + li{
     display: none;
 }
 /* voice filter out of call trimmed */

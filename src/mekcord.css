@@ -1,4 +1,4 @@
-.visual-refresh {
+.container_c48ade {
     /* windows bar shrunk + removed server title */
     div.base_c48ade {
         grid-template-rows: [top] 0 [titleBarEnd] 28px [noticeEnd] 1fr [end];
@@ -25,10 +25,11 @@
     border-radius: 10px;
     border-bottom-left-radius: 5px;
     border: 2px solid var(--background-modifier-accent);
+    border-bottom: 1px;
     padding: 0;
     width: 99%;
     left: 2px;
-    bottom: 4px;
+    bottom: 5px;
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     .button__67645 {
@@ -95,7 +96,7 @@
         padding: .375rem 11px;
         grid-row:1;
         .grabber_a562c8{
-            margin: -5px 0 0 -1px;
+            margin: -8px 0 0 -1px;
         }
         .vc-spotify-button-row{
             opacity: 0;            
@@ -109,7 +110,7 @@
             transition: opacity .1s .1s ease-in-out;
         }
     }
-    @media(max-height: 767px){
+    @media(max-height: 700px){
         #vc-spotify-player{
             padding: .375rem 11px 2px;
             #vc-spotify-info-wrapper{
@@ -193,9 +194,9 @@ main ~ .container_c8ffbb{
     }
 }
 
-/* 'now typing' above text field */
+/* chat input */
     .form_f75fb0 {
-        margin: 0 8px 8px 8px;
+        margin: 0 8px 7px 8px;
         padding: 0;
         --chatbar-border-color: var(--border-faint);
     }
@@ -208,7 +209,7 @@ main ~ .container_c8ffbb{
         top: -25px;
         left: 0;
         right: 0;
-        background: var(--bg-overlay-floating,var(--chat-background-default));
+        background: var(--bg-overlay-chat,var(--background-primary));
         padding: 0 8px;
         border-radius: var(--radius-sm) var(--radius-sm) 0 0;
         border: 1px solid var(--chatbar-border-color);
@@ -235,5 +236,9 @@ main ~ .container_c8ffbb{
     }
     .bottomBar__0f481 {
         margin-bottom: 25px;
+    }
+    /* profiles */
+    .tabBar_d1d9f3 {
+        gap: 5px;
     }
 }
