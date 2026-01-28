@@ -213,6 +213,11 @@ main ~ .container_c8ffbb{
     }
 }
 
+/* server info top bar */
+.searchBar_c322aa{
+    width: 220px;
+}
+
 /* chat input */
     .form_f75fb0 {
         margin: 0 8px 7px 8px;
@@ -264,3 +269,18 @@ main ~ .container_c8ffbb{
 /* IDEA: SWAPPABLE VC CHAT CHANNEL. WILL NEED DISCORD API/JS TO BE ABLE TO CALL */
 /* the channel: chatLayerWrapper__01ae2 */
 /* channel header (want to turn into dropdown): container__9293f themed__9293f */
+
+
+/* profile layout fixes */
+.user-profile-modal-v2 .inner_c0bea0{
+    .top_aa8da2{
+        flex-wrap: wrap;
+        gap: 22px;
+        .item_aa8da2+.item_aa8da2{
+            margin-left: 0;
+        }
+    }
+
+}
+
+    
