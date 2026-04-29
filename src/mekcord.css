@@ -166,7 +166,7 @@
 /* server list left icons */
 .wrapper_ef3116.guilds__5e434 {
     margin-bottom: 2px;
-    .pill_e5445c {
+    .pill_e5445c, .wrapper__58105.overlay__58105 {
         transform: translateX(8px);
     }
     > ul{
