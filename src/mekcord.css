@@ -220,7 +220,7 @@ main ~ .container_c8ffbb{
 
 /* chat input */
     .form_f75fb0 {
-        margin: 0 8px 7px 8px;
+        margin: 0 8px 5px 8px;
         padding: 0;
         --chatbar-border-color: var(--border-faint);
     }
@@ -282,10 +282,10 @@ main ~ .container_c8ffbb{
     }
 
 }
-/* was here removals */
+/* x was here FOMO removals */
 .row__70e41{
     display: none;
 }
-#popout_7300{
+.container__243fe{
     display: none;
 }
