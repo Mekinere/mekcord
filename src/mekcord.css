@@ -169,7 +169,7 @@
     .pill_e5445c, .wrapper__58105.overlay__58105 {
         transform: translateX(8px);
     }
-    > ul{
+    > .tree_ef3116{
     /* scaled due to how difficult it was to undo redundant code */
     transform: scale(1.25) translate(0px, 10%);
     box-sizing: border-box;
